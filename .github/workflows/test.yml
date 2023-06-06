@@ -26,11 +26,9 @@ jobs:
       - run: echo "💡 My github.token ${{ github.token }}"
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Checkout current repository
       - uses: actions/checkout@v2
-
       - name: Checkout private actions
-      - uses: vweevers/multi-checkout-action@v1
+        uses: vweevers/multi-checkout-action@v1
 
         with:
           token: ${{ github.token }}
