@@ -38,7 +38,7 @@ jobs:
           repository: ShevchenkoOlena/cks-test
           path: cks-test
           ref: main
-          token: ${{ github.token }}
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
           persist-credentials: false
 
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
