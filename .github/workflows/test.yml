@@ -33,7 +33,7 @@ jobs:
           path: cks-test
           ref: main
           token: ${{ github.token }}
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
           persist-credentials: false
 
       - name: Checkout current repository
