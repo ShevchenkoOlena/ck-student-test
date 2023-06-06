@@ -51,10 +51,8 @@ jobs:
           echo "Directories ../:"
           cd ../ShevchenkoOlena
           ls
-      - name: Install dependencies
+      - name: Install dependencies and Run tests
         run: |
           cd ../ShevchenkoOlena/cks-test
           yarn install
-      - name: Run tests
-        run: yarn run test
-
+          yarn run test
