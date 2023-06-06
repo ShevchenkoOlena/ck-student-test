@@ -25,6 +25,9 @@ jobs:
       - run: echo "💡 My secrets ACCESS_TOKEN_CONTENT_REPO ${{ secrets.ACCESS_TOKEN_CONTENT_REPO }}"
       - run: echo "💡 My github.token ${{ github.token }}"
 
+      - name: Config git
+        run: git config --global 'git@github.com:' insteadOf url."https://github.com/".'
+
       - name: Checkout current repository
         uses: actions/checkout@v3
 
