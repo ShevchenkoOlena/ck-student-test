@@ -53,7 +53,7 @@ jobs:
           ls
       - name: Install dependencies
         run: |
-          cd cd ../ShevchenkoOlena/cks-test
+          cd ../ShevchenkoOlena/cks-test
           yarn install
       - name: Run tests
         run: yarn run test
