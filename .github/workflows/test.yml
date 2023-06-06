@@ -33,7 +33,6 @@ jobs:
         with:
           token: ${{ github.token }}
           ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
-          persist-credentials: false
           repositories: |
               ShevchenkoOlena/cks-test
               ShevchenkoOlena/ck-student-test
@@ -50,7 +49,7 @@ jobs:
           echo "Directories:"
           ls
           echo "Directories ../:"
-          cd ../
+          cd ../ShevchenkoOlena
           ls
       - name: Install dependencies
         run: |
