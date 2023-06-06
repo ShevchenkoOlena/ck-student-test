@@ -24,7 +24,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       
-      - run: echo "💡 My secrets ${{ secrets }}"
+      - run: echo "💡 My secrets ${{ secrets.ACCESS_TOKEN_TEST_REPO }} ${{ secrets.ACCESS_TOKEN_CONTENT_REPO }}"
 
       - name: Checkout test repository
         uses: actions/checkout@v3
