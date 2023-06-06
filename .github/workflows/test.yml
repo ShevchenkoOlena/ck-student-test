@@ -30,7 +30,7 @@ jobs:
         with:
           repository: ShevchenkoOlena/cks-test
           ref: main
-          token: ${{ github.token }}
+          token: ${{ secrets.ACCESS_TOKEN_TEST_REPO }}
           
       - uses: actions/checkout@v3
       
