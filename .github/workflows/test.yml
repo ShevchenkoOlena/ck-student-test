@@ -20,11 +20,11 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Config git
-        run: git config --global url."https://github.com/".insteadOf 'git@github.com:'
-        
+       
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+      
+      - run: echo "💡 My secrets ${{ secrets }}"
 
       - name: Checkout test repository
         uses: actions/checkout@v3
