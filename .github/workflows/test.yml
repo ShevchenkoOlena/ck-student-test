@@ -25,12 +25,6 @@ jobs:
       - run: echo "💡 My secrets ACCESS_TOKEN_CONTENT_REPO ${{ secrets.ACCESS_TOKEN_CONTENT_REPO }}"
       - run: echo "💡 My github.token ${{ github.token }}"
 
-      - name: Config git
-        run: git config --global 'git@github.com:' insteadOf url."https://github.com/".'
-
-      - name: Checkout current repository
-        uses: actions/checkout@v3
-
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout test repository
         uses: actions/checkout@v3
@@ -42,9 +36,12 @@ jobs:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
           persist-credentials: false
 
+      - name: Checkout current repository
+        uses: actions/checkout@v3
+  
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
-
+        
       - name: Set up node 
         uses: actions/setup-node@v3
 
