@@ -28,9 +28,6 @@ jobs:
       - name: Checkout current repository
         uses: actions/checkout@v3
 
-      - name: Config git
-        run: git config --global url."https://github.com/".insteadOf 'git@github.com:'  
-
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout test repository
         uses: actions/checkout@v3
@@ -38,6 +35,7 @@ jobs:
           repository: ShevchenkoOlena/cks-test
           path: cks-test
           ref: main
+          token: ${{ github.token }}
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
           persist-credentials: false
 
