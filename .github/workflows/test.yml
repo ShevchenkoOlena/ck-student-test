@@ -1,4 +1,6 @@
-name: CI
+name: MY_TESTS
+env:
+  PATH_TO_CONTENT: "../ck-student-test"
 
 # Controls when the workflow will run
 on:
@@ -21,10 +23,6 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
 
-      - run: echo "💡 My secrets ACCESS_TOKEN_TEST_REPO ${{ secrets.ACCESS_TOKEN_TEST_REPO }} "
-      - run: echo "💡 My secrets ACCESS_TOKEN_CONTENT_REPO ${{ secrets.ACCESS_TOKEN_CONTENT_REPO }}"
-      - run: echo "💡 My github.token ${{ github.token }}"
-
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: Checkout private actions
@@ -38,7 +36,7 @@ jobs:
               ShevchenkoOlena/ck-student-test
         
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-      - run: echo "💡 The ${{ github.repositories }} repositories have been cloned to the runner."
+      - run: echo "💡 My PATH_TO_CONTENT ${{ env.PATH_TO_CONTENT }}"
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
         
       - name: Set up node 
