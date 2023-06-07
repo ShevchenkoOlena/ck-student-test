@@ -44,4 +44,8 @@ jobs:
         run: |
           cd ../ShevchenkoOlena/cks-test
           yarn install
+
+      - name: Run tests
+        run: |
+          cd ../ShevchenkoOlena/cks-test
           yarn run test
