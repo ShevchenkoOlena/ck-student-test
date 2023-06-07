@@ -1,14 +1,14 @@
 name: MY_TESTS
 env:
-  PATH_TO_CONTENT: "../ck-student-test"
+  PATH_TO_CONTENT: "ck-student-test"
 
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -22,7 +22,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: Checkout private actions
@@ -32,14 +31,14 @@ jobs:
           token: ${{ github.token }}
           ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
           repositories: |
-              ShevchenkoOlena/cks-test
-              ShevchenkoOlena/ck-student-test
-        
+            ShevchenkoOlena/cks-test
+            ShevchenkoOlena/ck-student-test
+
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
       - run: echo "💡 My PATH_TO_CONTENT ${{ env.PATH_TO_CONTENT }}"
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
-        
-      - name: Set up node 
+
+      - name: Set up node
         uses: actions/setup-node@v3
 
       - name: List Directories
