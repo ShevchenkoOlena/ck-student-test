@@ -1,6 +1,6 @@
 name: MY_TESTS
 env:
-  PATH_TO_CONTENT: "ck-student-test"
+  CONTENT_DIR_NAME: "ck-student-test"
 
 # Controls when the workflow will run
 on:
