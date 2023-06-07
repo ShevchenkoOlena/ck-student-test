@@ -1,0 +1,748 @@
+'CLM FILE'(2005,8). 
+clma_hash( `5AD1272DE60C01E5C04663855B8F3494` ).
+
+/** 24/05/2023, 19:29:49 **/ 
+
+/** clma_guideline/1 **/
+clma_guideline(10000). 
+
+/** clma_task/4 **/
+clma_task(10001,`case_presentation_plan`,plan,`Case_Presentation_plan`). 
+clma_task(10003,`history_taking_plan`,plan,`History_Taking_plan`). 
+clma_task(10004,`physical_examination_plan`,plan,`Physical_Examination_plan`). 
+clma_task(10005,`differential_diagnosis_plan`,plan,`Differential_Diagnosis_plan`). 
+clma_task(10006,`investigation_and_analysis_plan`,plan,`Investigation_and_Analysis_plan`). 
+clma_task(10007,`diagnosis_plan`,plan,`Diagnosis_plan`). 
+clma_task(10008,`treatment_plan`,plan,`Treatment_plan`). 
+clma_task(10197,`physical_examination_questions_plan`,plan,`Physical_Examination_Questions_plan`). 
+clma_task(10227,`investigations_plan`,plan,`Investigations_plan`). 
+clma_task(10329,`speech_bubble_choose_plan`,plan,`Speech_Bubble_Choose_plan`). 
+clma_task(10461,`critical_history_review_plan`,plan,`Critical_History_Review_plan`). 
+clma_task(10463,`clinical_update_example_action`,action,`Clinical_Update_Example_action`). 
+clma_task(10216,`physical_examination_options_plan`,plan,`Physical_Examination_Options_plan`). 
+clma_task(10970,`z_history_current_illness_action`,action,`Z_History_Current_Illness_action`). 
+clma_task(10971,`z_history_past_medical_action`,action,`Z_History_Past_Medical_action`). 
+clma_task(10972,`z_history_social_action`,action,`Z_History_Social_action`). 
+clma_task(10973,`z_history_family_action`,action,`Z_History_Family_action`). 
+clma_task(10974,`z_history_drug_and_other_treatment_action`,action,`Z_History_Drug_and_Other_Treatment_action`). 
+clma_task(10243,`investigation_results_plan`,plan,`Investigation_Results_plan`). 
+clma_task(10992,`subguideline_physicalexaminationselection`,keystone,`SubGuideline_PhysicalExaminationSelection`). 
+clma_task(11091,`physical_examination_results_nervous_system_action`,action,`Physical_Examination_Results_Nervous_System_action`). 
+clma_task(11092,`physical_examination_results_integumentary_system_action`,action,`Physical_Examination_Results_Integumentary_System_action`). 
+clma_task(11093,`physical_examination_results_general_appearance_action`,action,`Physical_Examination_Results_General_Appearance_action`). 
+clma_task(11099,`examination_results_plan`,plan,`Examination_Results_plan`). 
+clma_task(11098,`subguideline_physicalexaminationnormalfindings`,keystone,`SubGuideline_PhysicalExaminationNormalFindings`). 
+clma_task(11112,`follow_up_plan`,plan,`Follow_Up_plan`). 
+clma_task(11118,`follow_up_action`,action,`Follow_Up_action`). 
+clma_task(11129,`z_set_normal_system_examinations_action`,action,`Z_Set_Normal_System_Examinations_action`). 
+clma_task(11152,`z_temperature_derivation_action`,action,`Z_Temperature_Derivation_action`). 
+clma_task(11156,`z_bp_derivation_action`,action,`Z_BP_Derivation_action`). 
+clma_task(11161,`patient_chart_vital_signs_plan`,plan,`Patient_Chart_Vital_Signs_plan`). 
+clma_task(11162,`z_heart_rate_derivation_action`,action,`Z_Heart_Rate_Derivation_action`). 
+clma_task(11163,`z_respiratory_rate_derivation_action`,action,`Z_Respiratory_Rate_Derivation_action`). 
+clma_task(11165,`z_oxygen_saturation_ambient_air_derivation_action`,action,`Z_Oxygen_Saturation_Ambient_Air_Derivation_action`). 
+clma_task(11167,`z_oxygen_saturation_nasal_prongs_derivation_action`,action,`Z_Oxygen_Saturation_Nasal_Prongs_Derivation_action`). 
+clma_task(10000,`acne_vulgaris_protocol`,plan,`Acne_Vulgaris_Protocol`). 
+clma_task(11101,`subguideline_differentialdiagnosisintegumentarypediatric`,keystone,`SubGuideline_DifferentialDiagnosisIntegumentaryPediatric`). 
+clma_task(11212,`subguideline_regionalparameters`,keystone,`SubGuideline_Regionalparameters`). 
+clma_task(11213,`case_presentations_all_regions_plan`,plan,`Case_Presentations_All_Regions_plan`). 
+clma_task(11214,`noam_plan`,plan,`NOAM_plan`). 
+clma_task(11217,`anz_plan`,plan,`ANZ_plan`). 
+clma_task(11220,`uk_plan`,plan,`UK_plan`). 
+clma_task(11223,`ind_plan`,plan,`IND_plan`). 
+clma_task(11226,`patient_story_1_noam_action`,action,`Patient_Story_1_NOAM_action`). 
+clma_task(11227,`patient_story_2_noam_action`,action,`Patient_Story_2_NOAM_action`). 
+clma_task(11228,`patient_story_1_anz_action`,action,`Patient_Story_1_ANZ_action`). 
+clma_task(11229,`patient_story_2_anz_action`,action,`Patient_Story_2_ANZ_action`). 
+clma_task(11230,`patient_story_1_uk_action`,action,`Patient_Story_1_UK_action`). 
+clma_task(11231,`patient_story_2_uk_action`,action,`Patient_Story_2_UK_action`). 
+clma_task(11232,`patient_story_1_ind_action`,action,`Patient_Story_1_IND_action`). 
+clma_task(11233,`patient_story_2_ind_action`,action,`Patient_Story_2_IND_action`). 
+clma_task(11234,`what_wrong_plan`,plan,`What_Wrong_plan`). 
+clma_task(11235,`speech_app_what_wrong_with_patient_anz_action`,action,`Speech_App_What_Wrong_With_Patient_ANZ_action`). 
+clma_task(11236,`speech_app_what_wrong_with_patient_uk_action`,action,`Speech_App_What_Wrong_With_Patient_UK_action`). 
+clma_task(11237,`speech_app_what_wrong_with_patient_ind_action`,action,`Speech_App_What_Wrong_With_Patient_IND_action`). 
+clma_task(11238,`speech_app_what_wrong_with_patient_noam_action`,action,`Speech_App_What_Wrong_With_Patient_NOAM_action`). 
+clma_task(11239,`vital_signs_plan`,plan,`Vital_Signs_plan`). 
+clma_task(11240,`vital_signs_c_only_action`,action,`Vital_Signs_C_Only_action`). 
+clma_task(11241,`vital_signs_c_and_f_action`,action,`Vital_Signs_C_and_F_action`). 
+clma_task(11242,`history_taking_all_regions_plan`,plan,`History_Taking_All_Regions_plan`). 
+clma_task(11243,`speech_app_vital_signs_alert_noam_action`,action,`Speech_App_Vital_Signs_Alert_NOAM_action`). 
+clma_task(11244,`speech_app_vital_signs_alert_anz_action`,action,`Speech_App_Vital_Signs_Alert_ANZ_action`). 
+clma_task(11245,`speech_app_vital_signs_alert_uk_action`,action,`Speech_App_Vital_Signs_Alert_UK_action`). 
+clma_task(11246,`speech_app_vital_signs_alert_ind_action`,action,`Speech_App_Vital_Signs_Alert_IND_action`). 
+clma_task(11247,`subguideline_differentialdiagnosesdisplay`,keystone,`SubGuideline_Differentialdiagnosesdisplay`). 
+clma_task(11248,`subguideline_seniorclinician`,keystone,`SubGuideline_SeniorClinician`). 
+clma_task(11270,`patient_story_3_anz_action`,action,`Patient_Story_3_ANZ_action`). 
+clma_task(11271,`patient_story_3_uk_action`,action,`Patient_Story_3_UK_action`). 
+clma_task(11272,`patient_story_3_ind_action`,action,`Patient_Story_3_IND_action`). 
+clma_task(11269,`patient_story_3_noam_action`,action,`Patient_Story_3_NOAM_action`). 
+clma_task(11122,`subguideline_investigationsselectionintegumentarypediatric`,keystone,`SubGuideline_InvestigationsSelectionIntegumentaryPediatric`). 
+clma_task(11102,`subguideline_investigationsresultsintegumentarypediatric`,keystone,`SubGuideline_InvestigationsResultsIntegumentaryPediatric`). 
+clma_task(11119,`subguideline_diagnosesintegumentarypediatric`,keystone,`SubGuideline_DiagnosesIntegumentaryPediatric`). 
+clma_task(11111,`subguideline_treatmentoptionsintegumentarypediatric`,keystone,`SubGuideline_TreatmentOptionsIntegumentaryPediatric`). 
+clma_task(10991,`subguideline_casefeedbackintegumentarysystemchild`,keystone,`SubGuideline_CaseFeedbackIntegumentarySystemChild`). 
+clma_task(11104,`z_set_ix_abnormals_action`,action,`Z_Set_Ix_Abnormals_action`). 
+
+/** clma_task_attr/4 **/
+clma_task_attr(10000,component,10001,`10001`). 
+clma_task_attr(10001,caption,'Case Presentation',`Case Presentation`). 
+clma_task_attr(10000,component,10003,`10003`). 
+clma_task_attr(10003,caption,'History Taking',`History Taking`). 
+clma_task_attr(10000,schedule,(10003,10001),`10001`). 
+clma_task_attr(10000,component,10004,`10004`). 
+clma_task_attr(10004,caption,'Physical Examination',`Physical Examination`). 
+clma_task_attr(10000,component,10005,`10005`). 
+clma_task_attr(10005,caption,'Differential Diagnosis',`Differential Diagnosis`). 
+clma_task_attr(10000,component,10006,`10006`). 
+clma_task_attr(10006,caption,'Investigation and Analysis',`Investigation and Analysis`). 
+clma_task_attr(10000,component,10007,`10007`). 
+clma_task_attr(10000,schedule,(10007,10006),`10006`). 
+clma_task_attr(10007,caption,'Diagnosis',`Diagnosis`). 
+clma_task_attr(10000,component,10008,`10008`). 
+clma_task_attr(10000,schedule,(10008,10007),`10007`). 
+clma_task_attr(10008,caption,'Treatment',`Treatment`). 
+clma_task_attr(10000,schedule,(10005,10003),`10003`). 
+clma_task_attr(10000,schedule,(10004,10005),`10005`). 
+clma_task_attr(10000,schedule,(10006,10004),`10004`). 
+clma_task_attr(10197,caption,'Physical Examination Questions',`Physical Examination Questions`). 
+clma_task_attr(10004,int_cycle,10197,10197). 
+clma_task_attr(10004,component,10216,`10216`). 
+clma_task_attr(10216,component,10197,`10197`). 
+clma_task_attr(10006,component,10227,`10227`). 
+clma_task_attr(10227,component,10243,`10243`). 
+clma_task_attr(10227,caption,'Investigations ',`Investigations `). 
+clma_task_attr(10329,noconfirm,10303,10303). 
+clma_task_attr(10004,component,10329,`10329`). 
+clma_task_attr(10329,caption,'Speech Bubbles visible when Choose Examinations',`Speech Bubbles visible when Choose Examinations`). 
+clma_task_attr(10003,component,10461,`10461`). 
+clma_task_attr(10461,caption,'Critical History Review',`Critical History Review`). 
+clma_task_attr(10461,component,10463,`10463`). 
+clma_task_attr(10216,cycle_plan_as_new,false,`false`). 
+clma_task_attr(10004,schedule,(10216,10329),`10329`). 
+clma_task_attr(10004,ltwh,(10329,ltwh(600,600,1605,795)),[600,600,1605,795]). 
+clma_task_attr(10004,ltwh,(10216,ltwh(3195,600,1500,750)),[3195,600,1500,750]). 
+clma_task_attr(10216,caption,'Physical Exam Options',`Physical Exam Options`). 
+clma_task_attr(10000,ltwh,(10001,ltwh(495,2805,1500,750)),[495,2805,1500,750]). 
+clma_task_attr(10000,ltwh,(10003,ltwh(2505,2805,1500,750)),[2505,2805,1500,750]). 
+clma_task_attr(10000,ltwh,(10005,ltwh(4395,2805,1500,750)),[4395,2805,1500,750]). 
+clma_task_attr(10000,ltwh,(10007,ltwh(4605,4095,1500,750)),[4605,4095,1500,750]). 
+clma_task_attr(10003,ltwh,(10461,ltwh(3705,495,1500,750)),[3705,495,1500,750]). 
+clma_task_attr(10003,int_cycle,10961,10961). 
+clma_task_attr(10003,component,10970,`10970`). 
+clma_task_attr(10003,component,10971,`10971`). 
+clma_task_attr(10003,component,10972,`10972`). 
+clma_task_attr(10003,component,10973,`10973`). 
+clma_task_attr(10003,component,10974,`10974`). 
+clma_task_attr(10003,ltwh,(10971,ltwh(1605,1905,1200,1200)),[1605,1905,1200,1200]). 
+clma_task_attr(10003,ltwh,(10972,ltwh(3000,1905,1200,1200)),[3000,1905,1200,1200]). 
+clma_task_attr(10003,ltwh,(10973,ltwh(4395,1905,1200,1200)),[4395,1905,1200,1200]). 
+clma_task_attr(10003,ltwh,(10974,ltwh(5895,1905,1200,1200)),[5895,1905,1200,1200]). 
+clma_task_attr(10003,ltwh,(10970,ltwh(195,1905,1200,1200)),[195,1905,1200,1200]). 
+clma_task_attr(10000,component,10991,`10991`). 
+clma_task_attr(10000,ltwh,(10991,ltwh(600,3700,1500,1500)),[600,3700,1500,1500]). 
+clma_task_attr(10000,schedule,(10991,10008),`10008`). 
+clma_task_attr(10003,noconfirm,10974,10974). 
+clma_task_attr(10003,noconfirm,10973,10973). 
+clma_task_attr(10003,noconfirm,10972,10972). 
+clma_task_attr(10003,noconfirm,10971,10971). 
+clma_task_attr(10003,noconfirm,10970,10970). 
+clma_task_attr(10197,component,10992,`10992`). 
+clma_task_attr(10197,ltwh,(10992,ltwh(600,795,1500,1500)),[600,795,1500,1500]). 
+clma_task_attr(10000,ltwh,(10004,ltwh(6495,2805,1500,750)),[6495,2805,1500,750]). 
+clma_task_attr(10000,ltwh,(10006,ltwh(6495,4095,1500,750)),[6495,4095,1500,750]). 
+clma_task_attr(10243,caption,'Investigation Results',`Investigation Results`). 
+clma_task_attr(10243,no_share_tasks,11062,11062). 
+clma_task_attr(10197,subguideline,('Physical Examination Selection',10992),(`Physical Examination Selection`,10992)). 
+clma_task_attr(10197,no_share_tasks,10992,10992). 
+clma_task_attr(10992,caption,'Subordinate guideline: Physical Examination Selection',`Subordinate guideline: Physical Examination Selection`). 
+clma_task_attr(10992,description,'This keystone will run ''Physical Examination Selection'' as a subordinate guideline',`This keystone will run 'Physical Examination Selection' as a subordinate guideline`). 
+clma_task_attr(11099,caption,'Examination Results',`Examination Results`). 
+clma_task_attr(11099,cycle_plan_as_new,false,`false`). 
+clma_task_attr(11099,stay_open,false,`false`). 
+clma_task_attr(11099,component,11091,`11091`). 
+clma_task_attr(11099,component,11092,`11092`). 
+clma_task_attr(11099,component,11093,`11093`). 
+clma_task_attr(11099,ltwh,(11093,ltwh(195,2295,1200,1200)),[195,2295,1200,1200]). 
+clma_task_attr(11099,component,11098,`11098`). 
+clma_task_attr(11099,subguideline,('Physical Examination Normal Findings',11060),(`Physical Examination Normal Findings`,11060)). 
+clma_task_attr(11099,no_share_tasks,11060,11060). 
+clma_task_attr(11099,ltwh,(11098,ltwh(300,195,1500,1500)),[300,195,1500,1500]). 
+clma_task_attr(10004,component,11099,`11099`). 
+clma_task_attr(10004,schedule,(11099,10216),`10216`). 
+clma_task_attr(10004,ltwh,(11099,ltwh(5700,600,1500,750)),[5700,600,1500,750]). 
+clma_task_attr(11099,subguideline,('Physical Examination Normal Findings',11098),(`Physical Examination Normal Findings`,11098)). 
+clma_task_attr(11099,no_share_tasks,11098,11098). 
+clma_task_attr(11098,caption,'Subordinate guideline: Physical Examination Normal Findings',`Subordinate guideline: Physical Examination Normal Findings`). 
+clma_task_attr(11098,description,'This keystone will run ''Physical Examination Normal Findings'' as a subordinate guideline',`This keystone will run 'Physical Examination Normal Findings' as a subordinate guideline`). 
+clma_task_attr(10227,subguideline,('Investigations Selection Respiratory Paediatrics',11100),(`Investigations Selection Respiratory Paediatrics`,11100)). 
+clma_task_attr(10227,no_share_tasks,11100,11100). 
+clma_task_attr(10005,component,11101,`11101`). 
+clma_task_attr(10243,component,11102,`11102`). 
+clma_task_attr(10243,ltwh,(11102,ltwh(3000,1300,1500,1500)),[3000,1300,1500,1500]). 
+clma_task_attr(10006,component,11104,`11104`). 
+clma_task_attr(10006,noconfirm,11104,11104). 
+clma_task_attr(10006,ltwh,(11104,ltwh(3105,300,1200,1200)),[3105,300,1200,1200]). 
+clma_task_attr(10008,component,11111,`11111`). 
+clma_task_attr(10008,ltwh,(11111,ltwh(1005,2595,1500,1500)),[1005,2595,1500,1500]). 
+clma_task_attr(10008,component,11112,`11112`). 
+clma_task_attr(11112,caption,'Follow Up',`Follow Up`). 
+clma_task_attr(10000,ltwh,(10008,ltwh(2595,4095,1500,750)),[2595,4095,1500,750]). 
+clma_task_attr(11112,component,11118,`11118`). 
+clma_task_attr(11112,ltwh,(11118,ltwh(1500,2500,1200,1200)),[1500,2500,1200,1200]). 
+clma_task_attr(11118,caption,'Follow Up',`Follow Up`). 
+clma_task_attr(11112,noconfirm,11118,11118). 
+clma_task_attr(10007,component,11119,`11119`). 
+clma_task_attr(10970,caption,'History of current illness  (automatic)',`History of current illness  (automatic)`). 
+clma_task_attr(10971,caption,'Past medical history  (automatic)',`Past medical history  (automatic)`). 
+clma_task_attr(10972,caption,'Social history  (automatic)',`Social history  (automatic)`). 
+clma_task_attr(10973,caption,'Family history  (automatic)',`Family history  (automatic)`). 
+clma_task_attr(10974,caption,'Drug and other treatment history  (automatic)',`Drug and other treatment history  (automatic)`). 
+clma_task_attr(10227,component,11122,`11122`). 
+clma_task_attr(10005,ltwh,(11101,ltwh(2595,1395,1500,1500)),[2595,1395,1500,1500]). 
+clma_task_attr(10006,ltwh,(10227,ltwh(2895,2505,1500,750)),[2895,2505,1500,750]). 
+clma_task_attr(10006,schedule,(10227,11104),`11104`). 
+clma_task_attr(10461,ltwh,(10463,ltwh(5505,495,1200,1200)),[5505,495,1200,1200]). 
+clma_task_attr(11129,caption,'Set Normal System Examinations (automatic)',`Set Normal System Examinations (automatic)`). 
+clma_task_attr(10216,component,11129,`11129`). 
+clma_task_attr(10216,noconfirm,11129,11129). 
+clma_task_attr(10216,schedule,(10197,11129),`11129`). 
+clma_task_attr(10216,ltwh,(11129,ltwh(1800,300,1200,1200)),[1800,300,1200,1200]). 
+clma_task_attr(10216,ltwh,(10197,ltwh(1605,2100,1500,750)),[1605,2100,1500,750]). 
+clma_task_attr(10227,ltwh,(11122,ltwh(1695,1200,1500,1500)),[1695,1200,1500,1500]). 
+clma_task_attr(10227,schedule,(10243,11122),`11122`). 
+clma_task_attr(10227,ltwh,(10243,ltwh(4200,1605,1500,750)),[4200,1605,1500,750]). 
+clma_task_attr(10243,description,'PRECONDITION WHEN THE INVESTIGATION SELECTION EDITED FOR CLUSTER',`PRECONDITION WHEN THE INVESTIGATION SELECTION EDITED FOR CLUSTER`). 
+clma_task_attr(10008,ltwh,(11112,ltwh(3795,2895,1500,750)),[3795,2895,1500,750]). 
+clma_task_attr(10008,schedule,(11112,11111),`11111`). 
+clma_task_attr(10007,ltwh,(11119,ltwh(795,2295,1500,1500)),[795,2295,1500,1500]). 
+clma_task_attr(11152,caption,'Temperature Derivation',`Temperature Derivation`). 
+clma_task_attr(11156,caption,'Blood pressure derivation',`Blood pressure derivation`). 
+clma_task_attr(10463,caption,'Example clinical presentation',`Example clinical presentation`). 
+clma_task_attr(11093,caption,'General appearance examination results:',`General appearance examination results:`). 
+clma_task_attr(11092,caption,'Integumentary system examination results:',`Integumentary system examination results:`). 
+clma_task_attr(11091,caption,'Nervous system examination results:',`Nervous system examination results:`). 
+clma_task_attr(10001,component,11161,`11161`). 
+clma_task_attr(11161,caption,'Patient Chart Vital Signs ',`Patient Chart Vital Signs `). 
+clma_task_attr(11162,caption,'Heart rate derivation',`Heart rate derivation`). 
+clma_task_attr(11163,caption,'Respiratory rate derivation',`Respiratory rate derivation`). 
+clma_task_attr(11165,caption,'Oxygen saturaion on room air derivation',`Oxygen saturaion on room air derivation`). 
+clma_task_attr(11167,caption,'Oxygen saturation L/min via nasal prongs derivation',`Oxygen saturation L/min via nasal prongs derivation`). 
+clma_task_attr(11161,component,11152,`11152`). 
+clma_task_attr(11161,component,11156,`11156`). 
+clma_task_attr(11161,component,11162,`11162`). 
+clma_task_attr(11161,component,11163,`11163`). 
+clma_task_attr(11161,component,11165,`11165`). 
+clma_task_attr(11161,component,11167,`11167`). 
+clma_task_attr(11161,ltwh,(11152,ltwh(705,495,1200,1200)),[705,495,1200,1200]). 
+clma_task_attr(10001,ltwh,(11161,ltwh(4605,1200,1500,750)),[4605,1200,1500,750]). 
+clma_task_attr(11161,ltwh,(11156,ltwh(2400,495,1200,1200)),[2400,495,1200,1200]). 
+clma_task_attr(11161,ltwh,(11162,ltwh(600,2205,1200,1200)),[600,2205,1200,1200]). 
+clma_task_attr(11161,ltwh,(11163,ltwh(2400,2100,1200,1200)),[2400,2100,1200,1200]). 
+clma_task_attr(11161,noconfirm,11152,11152). 
+clma_task_attr(11161,noconfirm,11156,11156). 
+clma_task_attr(11161,noconfirm,11163,11163). 
+clma_task_attr(11161,noconfirm,11167,11167). 
+clma_task_attr(11161,noconfirm,11162,11162). 
+clma_task_attr(11161,noconfirm,11165,11165). 
+clma_task_attr(11161,ltwh,(11165,ltwh(600,4095,1200,1200)),[600,4095,1200,1200]). 
+clma_task_attr(11161,ltwh,(11167,ltwh(2295,4095,1200,1200)),[2295,4095,1200,1200]). 
+clma_task_attr(10000,caption,'Acne vulgaris',`Acne vulgaris`). 
+clma_task_attr(10005,subguideline,('Differential Diagnosis Integumentary Pediatric',11101),(`Differential Diagnosis Integumentary Pediatric`,11101)). 
+clma_task_attr(10005,no_share_tasks,11101,11101). 
+clma_task_attr(11101,caption,'Subordinate guideline: Differential Diagnosis Integumentary Pediatric',`Subordinate guideline: Differential Diagnosis Integumentary Pediatric`). 
+clma_task_attr(11101,description,'This keystone will run ''Differential Diagnosis Integumentary Pediatric'' as a subordinate guideline',`This keystone will run 'Differential Diagnosis Integumentary Pediatric' as a subordinate guideline`). 
+clma_task_attr(11099,ltwh,(11091,ltwh(3705,2295,1200,1200)),[3705,2295,1200,1200]). 
+clma_task_attr(11099,ltwh,(11092,ltwh(5400,2295,1200,1200)),[5400,2295,1200,1200]). 
+clma_task_attr(11212,caption,'Subordinate guideline: Regional parameters',`Subordinate guideline: Regional parameters`). 
+clma_task_attr(11212,description,'This keystone will run ''Regional parameters'' as a subordinate guideline',`This keystone will run 'Regional parameters' as a subordinate guideline`). 
+clma_task_attr(10000,component,11212,`11212`). 
+clma_task_attr(10000,subguideline,('Regional parameters',11212),(`Regional parameters`,11212)). 
+clma_task_attr(10000,no_share_tasks,11212,11212). 
+clma_task_attr(10000,ltwh,(11212,ltwh(405,495,1500,1500)),[405,495,1500,1500]). 
+clma_task_attr(10000,schedule,(10001,11212),`11212`). 
+clma_task_attr(11213,caption,'Case Presentations All Regions plan',`Case Presentations All Regions plan`). 
+clma_task_attr(11217,caption,'ANZ',`ANZ`). 
+clma_task_attr(11220,caption,'UK',`UK`). 
+clma_task_attr(11223,caption,'IND',`IND`). 
+clma_task_attr(10001,component,11213,`11213`). 
+clma_task_attr(11213,cycle_plan_as_new,false,`false`). 
+clma_task_attr(11213,stay_open,false,`false`). 
+clma_task_attr(11213,component,11214,`11214`). 
+clma_task_attr(11214,cycle_plan_as_new,false,`false`). 
+clma_task_attr(11214,stay_open,false,`false`). 
+clma_task_attr(11213,component,11217,`11217`). 
+clma_task_attr(11217,cycle_plan_as_new,false,`false`). 
+clma_task_attr(11217,stay_open,false,`false`). 
+clma_task_attr(11213,component,11220,`11220`). 
+clma_task_attr(11220,cycle_plan_as_new,false,`false`). 
+clma_task_attr(11220,stay_open,false,`false`). 
+clma_task_attr(11213,component,11223,`11223`). 
+clma_task_attr(11223,cycle_plan_as_new,false,`false`). 
+clma_task_attr(11223,stay_open,false,`false`). 
+clma_task_attr(11213,ltwh,(11214,ltwh(495,495,1500,750)),[495,495,1500,750]). 
+clma_task_attr(11213,ltwh,(11217,ltwh(2400,495,1500,750)),[2400,495,1500,750]). 
+clma_task_attr(11213,ltwh,(11220,ltwh(495,1695,1500,750)),[495,1695,1500,750]). 
+clma_task_attr(11213,ltwh,(11223,ltwh(2400,1695,1500,750)),[2400,1695,1500,750]). 
+clma_task_attr(10001,schedule,(11161,11213),`11213`). 
+clma_task_attr(10001,ltwh,(11213,ltwh(2205,1200,1500,750)),[2205,1200,1500,750]). 
+clma_task_attr(11214,component,11226,`11226`). 
+clma_task_attr(11214,component,11227,`11227`). 
+clma_task_attr(11214,ltwh,(11226,ltwh(600,1005,1200,1200)),[600,1005,1200,1200]). 
+clma_task_attr(11214,ltwh,(11227,ltwh(1905,1005,1200,1200)),[1905,1005,1200,1200]). 
+clma_task_attr(11228,caption,'Case description 1',`Case description 1`). 
+clma_task_attr(11217,component,11228,`11228`). 
+clma_task_attr(11229,caption,'Case description 2',`Case description 2`). 
+clma_task_attr(11217,component,11229,`11229`). 
+clma_task_attr(11217,ltwh,(11228,ltwh(795,1695,1200,1200)),[795,1695,1200,1200]). 
+clma_task_attr(11217,ltwh,(11229,ltwh(2100,1695,1200,1200)),[2100,1695,1200,1200]). 
+clma_task_attr(11230,caption,'Case description 1',`Case description 1`). 
+clma_task_attr(11220,component,11230,`11230`). 
+clma_task_attr(11231,caption,'Case description 2',`Case description 2`). 
+clma_task_attr(11220,component,11231,`11231`). 
+clma_task_attr(11220,ltwh,(11230,ltwh(900,1605,1200,1200)),[900,1605,1200,1200]). 
+clma_task_attr(11220,ltwh,(11231,ltwh(2205,1605,1200,1200)),[2205,1605,1200,1200]). 
+clma_task_attr(11232,caption,'Case description 1',`Case description 1`). 
+clma_task_attr(11223,component,11232,`11232`). 
+clma_task_attr(11233,caption,'Case description 2',`Case description 2`). 
+clma_task_attr(11223,component,11233,`11233`). 
+clma_task_attr(11223,ltwh,(11232,ltwh(900,1695,1200,1200)),[900,1695,1200,1200]). 
+clma_task_attr(11223,ltwh,(11233,ltwh(2205,1695,1200,1200)),[2205,1695,1200,1200]). 
+clma_task_attr(11234,caption,'What wrong with ''xx''',`What wrong with 'xx'`). 
+clma_task_attr(11237,caption,'Hey [User_Name], what do you think could be wrong with IND?',`Hey [User_Name], what do you think could be wrong with IND?`). 
+clma_task_attr(10329,component,11234,`11234`). 
+clma_task_attr(11234,cycle_plan_as_new,false,`false`). 
+clma_task_attr(11234,stay_open,false,`false`). 
+clma_task_attr(11234,component,11235,`11235`). 
+clma_task_attr(11235,duration,`2 seconds`,`2 seconds`). 
+clma_task_attr(11234,noconfirm,11235,11235). 
+clma_task_attr(11234,component,11236,`11236`). 
+clma_task_attr(11236,duration,`2 seconds`,`2 seconds`). 
+clma_task_attr(11234,noconfirm,11236,11236). 
+clma_task_attr(11234,component,11237,`11237`). 
+clma_task_attr(11237,duration,`2 seconds`,`2 seconds`). 
+clma_task_attr(11234,noconfirm,11237,11237). 
+clma_task_attr(11234,component,11238,`11238`). 
+clma_task_attr(11238,duration,`2 seconds`,`2 seconds`). 
+clma_task_attr(11234,noconfirm,11238,11238). 
+clma_task_attr(11234,ltwh,(11235,ltwh(1305,705,1395,1395)),[1305,705,1395,1395]). 
+clma_task_attr(11234,ltwh,(11236,ltwh(1305,5505,1395,1395)),[1305,5505,1395,1395]). 
+clma_task_attr(11234,ltwh,(11237,ltwh(1305,2295,1395,1395)),[1305,2295,1395,1395]). 
+clma_task_attr(11234,ltwh,(11238,ltwh(1305,3900,1395,1395)),[1305,3900,1395,1395]). 
+clma_task_attr(10329,ltwh,(11234,ltwh(300,705,1500,750)),[300,705,1500,750]). 
+clma_task_attr(11238,caption,'Hey [User_Name], what do you think could be wrong with Kennedy?',`Hey [User_Name], what do you think could be wrong with Kennedy?`). 
+clma_task_attr(11236,caption,'Hey [User_Name], what do you think could be wrong with Claire?',`Hey [User_Name], what do you think could be wrong with Claire?`). 
+clma_task_attr(11235,caption,'Hey [User_Name], what do you think could be wrong with Kennedy?',`Hey [User_Name], what do you think could be wrong with Kennedy?`). 
+clma_task_attr(11239,caption,'Vital Signs',`Vital Signs`). 
+clma_task_attr(11240,caption,'Vital signs',`Vital signs`). 
+clma_task_attr(11241,caption,'Vital Signs',`Vital Signs`). 
+clma_task_attr(11242,caption,'History Taking All Regions',`History Taking All Regions`). 
+clma_task_attr(11246,caption,'Hi Dr, here are IND''s vital signs',`Hi Dr, here are IND's vital signs`). 
+clma_task_attr(10003,component,11239,`11239`). 
+clma_task_attr(11239,cycle_plan_as_new,false,`false`). 
+clma_task_attr(11239,stay_open,false,`false`). 
+clma_task_attr(11239,component,11240,`11240`). 
+clma_task_attr(11239,component,11241,`11241`). 
+clma_task_attr(10003,component,11242,`11242`). 
+clma_task_attr(11242,cycle_plan_as_new,false,`false`). 
+clma_task_attr(11242,stay_open,false,`false`). 
+clma_task_attr(11242,component,11243,`11243`). 
+clma_task_attr(11243,duration,`2 seconds`,`2 seconds`). 
+clma_task_attr(11242,noconfirm,11243,11243). 
+clma_task_attr(11242,component,11244,`11244`). 
+clma_task_attr(11244,duration,`2 seconds`,`2 seconds`). 
+clma_task_attr(11242,noconfirm,11244,11244). 
+clma_task_attr(11242,component,11245,`11245`). 
+clma_task_attr(11245,duration,`2 seconds`,`2 seconds`). 
+clma_task_attr(11242,noconfirm,11245,11245). 
+clma_task_attr(11242,component,11246,`11246`). 
+clma_task_attr(11246,duration,`2 seconds`,`2 seconds`). 
+clma_task_attr(11242,noconfirm,11246,11246). 
+clma_task_attr(11239,ltwh,(11240,ltwh(1095,795,1200,1200)),[1095,795,1200,1200]). 
+clma_task_attr(11239,ltwh,(11241,ltwh(3405,795,1200,1200)),[3405,795,1200,1200]). 
+clma_task_attr(11242,ltwh,(11243,ltwh(600,705,1200,1200)),[600,705,1200,1200]). 
+clma_task_attr(11242,ltwh,(11244,ltwh(2205,705,1200,1200)),[2205,705,1200,1200]). 
+clma_task_attr(11242,ltwh,(11245,ltwh(600,2205,1200,1200)),[600,2205,1200,1200]). 
+clma_task_attr(11242,ltwh,(11246,ltwh(2205,2205,1200,1200)),[2205,2205,1200,1200]). 
+clma_task_attr(10003,ltwh,(11239,ltwh(2100,495,1500,750)),[2100,495,1500,750]). 
+clma_task_attr(10003,ltwh,(11242,ltwh(495,495,1500,750)),[495,495,1500,750]). 
+clma_task_attr(10003,schedule,(11239,11242),`11242`). 
+clma_task_attr(10003,schedule,(10461,11239),`11239`). 
+clma_task_attr(11244,caption,'Hi Dr, here are Kennedy''s vital signs',`Hi Dr, here are Kennedy's vital signs`). 
+clma_task_attr(11243,caption,'Hi Dr, here are Kennedy''s vital signs',`Hi Dr, here are Kennedy's vital signs`). 
+clma_task_attr(11245,caption,'Hi Dr, here are Claire''s vital signs',`Hi Dr, here are Claire's vital signs`). 
+clma_task_attr(11247,caption,'Subordinate guideline: Differential diagnoses display',`Subordinate guideline: Differential diagnoses display`). 
+clma_task_attr(11247,description,'This keystone will run ''Differential diagnoses display'' as a subordinate guideline',`This keystone will run 'Differential diagnoses display' as a subordinate guideline`). 
+clma_task_attr(10329,component,11247,`11247`). 
+clma_task_attr(10329,subguideline,('Differential diagnoses display',11247),(`Differential diagnoses display`,11247)). 
+clma_task_attr(10329,no_share_tasks,11247,11247). 
+clma_task_attr(10329,ltwh,(11247,ltwh(2400,300,1500,1500)),[2400,300,1500,1500]). 
+clma_task_attr(10329,schedule,(11247,11234),`11234`). 
+clma_task_attr(11248,caption,'Subordinate guideline: Senior Clinician',`Subordinate guideline: Senior Clinician`). 
+clma_task_attr(11248,description,'This keystone will run ''Senior Clinician'' as a subordinate guideline',`This keystone will run 'Senior Clinician' as a subordinate guideline`). 
+clma_task_attr(10461,component,11248,`11248`). 
+clma_task_attr(10461,subguideline,('Senior Clinician',11248),(`Senior Clinician`,11248)). 
+clma_task_attr(10461,no_share_tasks,11248,11248). 
+clma_task_attr(10461,ltwh,(11248,ltwh(2205,495,1500,1500)),[2205,495,1500,1500]). 
+clma_task_attr(10461,schedule,(10463,11248),`11248`). 
+clma_task_attr(11214,component,11269,`11269`). 
+clma_task_attr(11214,ltwh,(11269,ltwh(3405,1005,1200,1200)),[3405,1005,1200,1200]). 
+clma_task_attr(11217,component,11270,`11270`). 
+clma_task_attr(11217,ltwh,(11270,ltwh(3495,1695,1200,1200)),[3495,1695,1200,1200]). 
+clma_task_attr(11270,caption,'Case description 3',`Case description 3`). 
+clma_task_attr(11220,component,11271,`11271`). 
+clma_task_attr(11220,ltwh,(11271,ltwh(3795,1605,1200,1200)),[3795,1605,1200,1200]). 
+clma_task_attr(11271,caption,'Case description 3',`Case description 3`). 
+clma_task_attr(11223,component,11272,`11272`). 
+clma_task_attr(11223,ltwh,(11272,ltwh(3705,1695,1200,1200)),[3705,1695,1200,1200]). 
+clma_task_attr(11272,caption,'Case description 3',`Case description 3`). 
+clma_task_attr(11214,caption,'NOAM',`NOAM`). 
+clma_task_attr(11226,caption,'My skin is terrible...',`My skin is terrible...`). 
+clma_task_attr(11227,caption,'My skin makes me self-conscious...',`My skin makes me self-conscious...`). 
+clma_task_attr(10227,subguideline,('Investigations Selection Integumentary Pediatric',11122),(`Investigations Selection Integumentary Pediatric`,11122)). 
+clma_task_attr(10227,no_share_tasks,11122,11122). 
+clma_task_attr(11122,caption,'Subordinate guideline: Investigations Selection Integumentary Pediatric',`Subordinate guideline: Investigations Selection Integumentary Pediatric`). 
+clma_task_attr(11122,description,'This keystone will run ''Investigations Selection Integumentary Pediatric'' as a subordinate guideline',`This keystone will run 'Investigations Selection Integumentary Pediatric' as a subordinate guideline`). 
+clma_task_attr(10243,subguideline,('Investigations Results Integumentary Pediatric',11102),(`Investigations Results Integumentary Pediatric`,11102)). 
+clma_task_attr(10243,no_share_tasks,11102,11102). 
+clma_task_attr(11102,caption,'Subordinate guideline: Investigations Results Integumentary Pediatric',`Subordinate guideline: Investigations Results Integumentary Pediatric`). 
+clma_task_attr(11102,description,'This keystone will run ''Investigations Results Integumentary Pediatric'' as a subordinate guideline',`This keystone will run 'Investigations Results Integumentary Pediatric' as a subordinate guideline`). 
+clma_task_attr(10007,subguideline,('Diagnoses Integumentary Pediatric',11119),(`Diagnoses Integumentary Pediatric`,11119)). 
+clma_task_attr(10007,no_share_tasks,11119,11119). 
+clma_task_attr(11119,caption,'Subordinate guideline: Diagnoses Integumentary Pediatric',`Subordinate guideline: Diagnoses Integumentary Pediatric`). 
+clma_task_attr(11119,description,'This keystone will run ''Diagnoses Integumentary Pediatric'' as a subordinate guideline',`This keystone will run 'Diagnoses Integumentary Pediatric' as a subordinate guideline`). 
+clma_task_attr(10008,subguideline,('Treatment Options Integumentary Pediatric',11111),(`Treatment Options Integumentary Pediatric`,11111)). 
+clma_task_attr(10008,no_share_tasks,11111,11111). 
+clma_task_attr(11111,caption,'Subordinate guideline: Treatment Options Integumentary Pediatric',`Subordinate guideline: Treatment Options Integumentary Pediatric`). 
+clma_task_attr(11111,description,'This keystone will run ''Treatment Options Integumentary Pediatric'' as a subordinate guideline',`This keystone will run 'Treatment Options Integumentary Pediatric' as a subordinate guideline`). 
+clma_task_attr(11269,caption,'Nothing I have tried has improved my skin...',`Nothing I have tried has improved my skin...`). 
+clma_task_attr(10000,subguideline,('Case Feedback Integumentary System Child',10991),(`Case Feedback Integumentary System Child`,10991)). 
+clma_task_attr(10000,no_share_tasks,10991,10991). 
+clma_task_attr(10991,caption,'Subordinate guideline: Case Feedback Integumentary System Child',`Subordinate guideline: Case Feedback Integumentary System Child`). 
+clma_task_attr(10991,description,'This keystone will run ''Case Feedback Integumentary System Child'' as a subordinate guideline',`This keystone will run 'Case Feedback Integumentary System Child' as a subordinate guideline`). 
+clma_task_attr(10001,postcondition,`(case_condition = $('Acne vulgaris') and age_years = 17 and gender = female and case_internal_id = $('0039'))`,`Case_Condition = 'Acne vulgaris' and Age_Years = 17 and Gender = Female and Case_Internal_ID = '0039'`). 
+clma_task_attr(10970,postcondition,`(history_current_illness_acne_1 = yes)`,`History_Current_Illness_Acne_1 = Yes`). 
+clma_task_attr(10971,postcondition,`(history_past_medical = no)`,`History_Past_Medical = No`). 
+clma_task_attr(10972,postcondition,`(lives_with_mother_father_brother = yes)`,`Lives_with_Mother_Father_Brother = Yes`). 
+clma_task_attr(10973,postcondition,`(history_family_significant = no)`,`History_Family_Significant = No`). 
+clma_task_attr(10974,postcondition,`(acne_otc_creams_tried = yes)`,`Acne_OTC_Creams_Tried = Yes`). 
+clma_task_attr(10243,precondition,`(investigations_selected = yes)`,`Investigations_Selected = Yes`). 
+clma_task_attr(11091,precondition,`(a_physical_examination_nervous_system = yes)`,`A_Physical_Examination_Nervous_System = Yes`). 
+clma_task_attr(11091,postcondition,`(cranial_nerves_grossly_intact = yes)`,`Cranial_Nerves_Grossly_Intact = Yes`). 
+clma_task_attr(11091,procedure,'<ul><li>Cranial nerves grossly intact</li></ul>',`<ul><li>Cranial nerves grossly intact</li></ul>`). 
+clma_task_attr(11092,precondition,`(a_physical_examination_integumentary_system = yes)`,`A_Physical_Examination_Integumentary_System = Yes`). 
+clma_task_attr(11092,postcondition,`(acne_vulgaris_description = yes)`,`Acne_Vulgaris_Description = Yes`). 
+clma_task_attr(11092,procedure,'<ul><li>Closed comedones, pustules, and inflammatory papules present on forehead, cheeks, and chin</li></ul>',`<ul><li>Closed comedones, pustules, and inflammatory papules present on forehead, cheeks, and chin</li></ul>`). 
+clma_task_attr(11093,precondition,`(a_physical_examination_general_appearance = yes)`,`A_Physical_Examination_General_Appearance = Yes`). 
+clma_task_attr(11093,postcondition,`(appears_well = yes)`,`Appears_Well = Yes`). 
+clma_task_attr(11093,procedure,'<ul><li>Well-appearing, in no distress</li></ul>',`<ul><li>Well-appearing, in no distress</li></ul>`). 
+clma_task_attr(11099,precondition,`(examinations_selected = yes)`,`Examinations_Selected = Yes`). 
+clma_task_attr(11112,precondition,`(suppress = yes)`,`suppress = Yes`). 
+clma_task_attr(11118,precondition,`(suppress = yes)`,`suppress = yes`). 
+clma_task_attr(11129,postcondition,`(physical_examinations_normal_list = [cardiovascular_system,gastrointestinal_system,genitourinary_system,head_eyes_ears_nose_throat,mental_state_examination,musculoskeletal_system,respiratory_system])`,`Physical_Examinations_Normal_List = [ Cardiovascular_System, Gastrointestinal_System, Genitourinary_System, Head_Eyes_Ears_Nose_Throat, Mental_State_Examination, Musculoskeletal_System, Respiratory_System ]`). 
+clma_task_attr(11152,precondition,`(isknown(temperature_farenheit) and isknown(temperature))`,`isknown( Temperature_Farenheit ) and isknown( Temperature )`). 
+clma_task_attr(11152,postcondition,`(temperature_patient_chart = temperature & $('°C ') & $('(') & temperature_farenheit & $(°F) & $(')'))`,`Temperature_Patient_Chart = Temperature & '°C ' & '(' & Temperature_Farenheit & '°F' & ')'`). 
+clma_task_attr(11156,precondition,`(isknown(blood_pressure_diastolic) and isknown(blood_pressure_systolic))`,`isknown( Blood_Pressure_Diastolic ) and isknown( Blood_Pressure_Systolic )`). 
+clma_task_attr(11156,postcondition,`(bp_patient_chart = blood_pressure_systolic & $(/) & blood_pressure_diastolic & $(' mmHg'))`,`BP_Patient_Chart = Blood_Pressure_Systolic & '/'  & Blood_Pressure_Diastolic & ' mmHg'`). 
+clma_task_attr(11162,precondition,`(isknown(heart_rate_bpm))`,`isknown( Heart_Rate_BPM )`). 
+clma_task_attr(11162,postcondition,`(heart_rate_patient_chart = heart_rate_bpm & $(' beats/min'))`,`Heart_Rate_Patient_Chart = Heart_Rate_BPM & ' beats/min'`). 
+clma_task_attr(11163,precondition,`(isknown(respiratory_rate))`,`isknown( Respiratory_Rate )`). 
+clma_task_attr(11163,postcondition,`(respiratory_rate_patient_chart = respiratory_rate & $(' breaths/min'))`,`Respiratory_Rate_Patient_Chart = Respiratory_Rate & ' breaths/min'`). 
+clma_task_attr(11165,precondition,`(isknown(oxygen_saturation_ambient_air))`,`isknown( Oxygen_Saturation_Ambient_Air )`). 
+clma_task_attr(11165,postcondition,`(oxygen_saturation_room_air_patient_chart = oxygen_saturation_ambient_air & $('% on room air'))`,`Oxygen_Saturation_Room_Air_Patient_Chart = Oxygen_Saturation_Ambient_Air & '% on room air'`). 
+clma_task_attr(11167,precondition,`(isknown(oxygen_saturation_nasal_prongs_2lmin))`,`isknown( Oxygen_Saturation_Nasal_Prongs_2lMin )`). 
+clma_task_attr(11167,postcondition,`(oxygen_saturation_nasal_prongs_patient_chart = oxygen_saturation_nasal_prongs_2lmin & $('% on  2L/min via nasal prongs'))`,`Oxygen_Saturation_Nasal_Prongs_Patient_Chart = Oxygen_Saturation_Nasal_Prongs_2lMin & '% on  2L/min via nasal prongs'`). 
+clma_task_attr(11213,postcondition,`(temperature = 36.6 and temperature_farenheit = 97.9 and heart_rate_bpm = 72 and blood_pressure_systolic = 105 and blood_pressure_diastolic = 84 and respiratory_rate = 18 and oxygen_saturation_ambient_air = 100)`,`Temperature = 36.6 and Temperature_Farenheit = 97.9 and Heart_Rate_BPM = 72 and Blood_Pressure_Systolic = 105 and Blood_Pressure_Diastolic = 84 and Respiratory_Rate = 18 and Oxygen_Saturation_Ambient_Air = 100`). 
+clma_task_attr(11214,precondition,`(region = noam)`,`region = NOAM`). 
+clma_task_attr(11217,precondition,`(region = anz)`,`region = ANZ`). 
+clma_task_attr(11220,precondition,`(region = uk)`,`region = UK`). 
+clma_task_attr(11223,precondition,`(region = ind)`,`region = IND`). 
+clma_task_attr(11226,procedure,'Kennedy is a 17-year-old avid tennis player who intends to make her career in tennis. She regularly practices before and after school and competes in tournaments. In recent years her confidence has been impacted by the appearance of her skin. She has a number of red lesions on her face and is unable to decrease them with topical creams she has purchased online or from the skincare aisle of her local drugstore.',`Kennedy is a 17-year-old avid tennis player who intends to make her career in tennis. She regularly practices before and after school and competes in tournaments. In recent years her confidence has been impacted by the appearance of her skin. She has a number of red lesions on her face and is unable to decrease them with topical creams she has purchased online or from the skincare aisle of her local drugstore.`). 
+clma_task_attr(11227,procedure,'Overall Kennedy is a healthy teenager with an active social life. She used to be outgoing and confident and made new friends easily. However, in the last 2 years she has been less interested in meeting new people as she is self-conscious about her skin.',`Overall Kennedy is a healthy teenager with an active social life. She used to be outgoing and confident and made new friends easily. However, in the last 2 years she has been less interested in meeting new people as she is self-conscious about her skin.`). 
+clma_task_attr(11228,procedure,'Kennedy is an overall healthy teenager who has an active social life. She has been an outgoing and confident person and makes new friends easily. However, in the past 2 years she has been less interested in meeting new people as she is self-conscious about her skin.',`Kennedy is an overall healthy teenager who has an active social life. She has been an outgoing and confident person and makes new friends easily. However, in the past 2 years she has been less interested in meeting new people as she is self-conscious about her skin.`). 
+clma_task_attr(11229,procedure,'Over the past 2 years, Kennedy has seen a growing number of red bumps on her face. She first noticed them on her forehead and they are now appearing on her chin and cheeks. She has tried many creams and topical treatments that she purchased over-the-counter, but these have had little effect',`Over the past 2 years, Kennedy has seen a growing number of red bumps on her face. She first noticed them on her forehead and they are now appearing on her chin and cheeks. She has tried many creams and topical treatments that she purchased over-the-counter, but these have had little effect`). 
+clma_task_attr(11230,procedure,'Kennedy is an overall healthy teenager who has an active social life. She has been an outgoing and confident person and makes new friends easily. However, in the past 2 years she has been less interested in meeting new people as she is self-conscious about her skin.',`Kennedy is an overall healthy teenager who has an active social life. She has been an outgoing and confident person and makes new friends easily. However, in the past 2 years she has been less interested in meeting new people as she is self-conscious about her skin.`). 
+clma_task_attr(11231,procedure,'Over the past 2 years, Kennedy has seen a growing number of red bumps on her face. She first noticed them on her forehead and they are now appearing on her chin and cheeks. She has tried many creams and topical treatments that she purchased over-the-counter, but these have had little effect',`Over the past 2 years, Kennedy has seen a growing number of red bumps on her face. She first noticed them on her forehead and they are now appearing on her chin and cheeks. She has tried many creams and topical treatments that she purchased over-the-counter, but these have had little effect`). 
+clma_task_attr(11232,procedure,'Kennedy is an overall healthy teenager who has an active social life. She has been an outgoing and confident person and makes new friends easily. However, in the past 2 years she has been less interested in meeting new people as she is self-conscious about her skin.',`Kennedy is an overall healthy teenager who has an active social life. She has been an outgoing and confident person and makes new friends easily. However, in the past 2 years she has been less interested in meeting new people as she is self-conscious about her skin.`). 
+clma_task_attr(11233,procedure,'Over the past 2 years, Kennedy has seen a growing number of red bumps on her face. She first noticed them on her forehead and they are now appearing on her chin and cheeks. She has tried many creams and topical treatments that she purchased over-the-counter, but these have had little effect',`Over the past 2 years, Kennedy has seen a growing number of red bumps on her face. She first noticed them on her forehead and they are now appearing on her chin and cheeks. She has tried many creams and topical treatments that she purchased over-the-counter, but these have had little effect`). 
+clma_task_attr(11235,internal_trigger,`(region = anz)`,`region = ANZ`). 
+clma_task_attr(11236,internal_trigger,`(region = uk)`,`region = UK`). 
+clma_task_attr(11237,internal_trigger,`(region = ind)`,`region = IND`). 
+clma_task_attr(11238,internal_trigger,`(region = noam)`,`region = NOAM`). 
+clma_task_attr(11240,internal_trigger,`(temperature_units = $('DegC'))`,`Temperature_Units = 'DegC'`). 
+clma_task_attr(11240,procedure,'<ul><li>Temperature: 36.6°C </li><li>Heart rate: 72 beats/min</li><li>Respiration rate: 18 breaths/min </li><li>Blood pressure: 105/84 mmHg</li><li>O<sub>2</sub> Saturation: 100% on room air</li></ul>',`<ul><li>Temperature: 36.6°C </li><li>Heart rate: 72 beats/min</li><li>Respiration rate: 18 breaths/min </li><li>Blood pressure: 105/84 mmHg</li><li>O<sub>2</sub> Saturation: 100% on room air</li></ul>`). 
+clma_task_attr(11241,internal_trigger,`(temperature_units = $('Both'))`,`Temperature_Units = 'Both'`). 
+clma_task_attr(11241,procedure,'<ul><li>Temperature: 36.6°C (97.9°F)</li><li>Heart rate: 72 beats/min</li><li>Respiration rate: 18 breaths/min </li><li>Blood pressure: 105/84 mmHg</li><li>O<sub>2</sub> Saturation: 100% on room air</li></ul>',`<ul><li>Temperature: 36.6°C (97.9°F)</li><li>Heart rate: 72 beats/min</li><li>Respiration rate: 18 breaths/min </li><li>Blood pressure: 105/84 mmHg</li><li>O<sub>2</sub> Saturation: 100% on room air</li></ul>`). 
+clma_task_attr(11243,precondition,`(region = noam)`,`region = NOAM`). 
+clma_task_attr(11244,precondition,`(region = anz)`,`region = ANZ`). 
+clma_task_attr(11245,precondition,`(region = uk)`,`region = UK`). 
+clma_task_attr(11246,precondition,`(region = ind)`,`region = IND`). 
+clma_task_attr(11270,procedure,'Over the past 2 years, Kennedy has seen a growing number of red bumps on her face. She first noticed them on her forehead and they are now appearing on her chin and cheeks. She has tried many creams and topical treatments that she purchased over-the-counter, but these have had little effect',`Over the past 2 years, Kennedy has seen a growing number of red bumps on her face. She first noticed them on her forehead and they are now appearing on her chin and cheeks. She has tried many creams and topical treatments that she purchased over-the-counter, but these have had little effect`). 
+clma_task_attr(11271,procedure,'Over the past 2 years, Kennedy has seen a growing number of red bumps on her face. She first noticed them on her forehead and they are now appearing on her chin and cheeks. She has tried many creams and topical treatments that she purchased over-the-counter, but these have had little effect',`Over the past 2 years, Kennedy has seen a growing number of red bumps on her face. She first noticed them on her forehead and they are now appearing on her chin and cheeks. She has tried many creams and topical treatments that she purchased over-the-counter, but these have had little effect`). 
+clma_task_attr(11272,procedure,'Over the past 2 years, Kennedy has seen a growing number of red bumps on her face. She first noticed them on her forehead and they are now appearing on her chin and cheeks. She has tried many creams and topical treatments that she purchased over-the-counter, but these have had little effect',`Over the past 2 years, Kennedy has seen a growing number of red bumps on her face. She first noticed them on her forehead and they are now appearing on her chin and cheeks. She has tried many creams and topical treatments that she purchased over-the-counter, but these have had little effect`). 
+clma_task_attr(11269,procedure,'Over the last 2 years, Kennedy has seen a growing number of red bumps on her face. She first noticed them on her forehead and they are now appearing on her chin and cheeks. She has tried many creams and topical treatments that she purchased over the counter, but these have had little effect.',`Over the last 2 years, Kennedy has seen a growing number of red bumps on her face. She first noticed them on her forehead and they are now appearing on her chin and cheeks. She has tried many creams and topical treatments that she purchased over the counter, but these have had little effect.`). 
+clma_task_attr(11104,caption,'set ix abnormals (automatic)',`Set Ix Abnormals (automatic)`). 
+clma_task_attr(11092,context,'Image=''f007-010-9780323612692.jpg''',`Image='f007-010-9780323612692.jpg'`). 
+clma_task_attr(11104,postcondition,`(investigation_results_abnormal_list = [x])`,`Investigation_Results_Abnormal_List = [ X ]`). 
+clma_task_attr(10463,procedure,'17-year-old female presenting with red bumps on her face that have appeared over the last two years. They started on the forehead, followed by the cheeks and chin. Over-the-counter creams have not helped much in clearing them.',`17-year-old female presenting with red bumps on her face that have appeared over the last two years. They started on the forehead, followed by the cheeks and chin. Over-the-counter creams have not helped much in clearing them.`). 
+
+/** clma_link/2 **/
+
+/** clma_locked/1 **/
+
+/** clma_key/1 **/
+clma_key(11273). 
+
+/** clma_ditem/4 **/
+clma_ditem(10010,`age_years`,integer,`Age_Years`). 
+clma_ditem(10887,`history_family_significant`,text,`History_Family_Significant`). 
+clma_ditem(10962,`temperature`,real,`Temperature`). 
+clma_ditem(10967,`respiratory_rate`,integer,`Respiratory_Rate`). 
+clma_ditem(10969,`oxygen_saturation_ambient_air`,real,`Oxygen_Saturation_Ambient_Air`). 
+clma_ditem(10980,`gender`,text,`Gender`). 
+clma_ditem(10989,`case_condition`,text,`Case_Condition`). 
+clma_ditem(11066,`physical_examinations_normal_list`,setof_text,`Physical_Examinations_Normal_List`). 
+clma_ditem(11121,`temperature_farenheit`,real,`Temperature_Farenheit`). 
+clma_ditem(10990,`case_internal_id`,text,`Case_Internal_ID`). 
+clma_ditem(10985,`heart_rate_bpm`,integer,`Heart_Rate_BPM`). 
+clma_ditem(11145,`investigations_selected`,text,`Investigations_Selected`). 
+clma_ditem(11148,`examinations_selected`,text,`Examinations_Selected`). 
+clma_ditem(11151,`temperature_patient_chart`,text,`Temperature_Patient_Chart`). 
+clma_ditem(11153,`blood_pressure_systolic`,integer,`Blood_Pressure_Systolic`). 
+clma_ditem(11154,`blood_pressure_diastolic`,integer,`Blood_Pressure_Diastolic`). 
+clma_ditem(11155,`bp_patient_chart`,text,`BP_Patient_Chart`). 
+clma_ditem(11157,`heart_rate_patient_chart`,text,`Heart_Rate_Patient_Chart`). 
+clma_ditem(11158,`respiratory_rate_patient_chart`,text,`Respiratory_Rate_Patient_Chart`). 
+clma_ditem(11159,`oxygen_saturation_room_air_patient_chart`,text,`Oxygen_Saturation_Room_Air_Patient_Chart`). 
+clma_ditem(11160,`oxygen_saturation_nasal_prongs_patient_chart`,text,`Oxygen_Saturation_Nasal_Prongs_Patient_Chart`). 
+clma_ditem(11166,`oxygen_saturation_nasal_prongs_2lmin`,integer,`Oxygen_Saturation_Nasal_Prongs_2lMin`). 
+clma_ditem(11170,`history_current_illness_acne_1`,text,`History_Current_Illness_Acne_1`). 
+clma_ditem(11172,`history_past_medical`,text,`History_Past_Medical`). 
+clma_ditem(11175,`lives_with_mother_father_brother`,text,`Lives_with_Mother_Father_Brother`). 
+clma_ditem(11178,`acne_otc_creams_tried`,text,`Acne_OTC_Creams_Tried`). 
+clma_ditem(11183,`appears_well`,text,`Appears_Well`). 
+clma_ditem(11186,`cranial_nerves_grossly_intact`,text,`Cranial_Nerves_Grossly_Intact`). 
+clma_ditem(11198,`acne_vulgaris_description`,text,`Acne_Vulgaris_Description`). 
+clma_ditem(11106,`investigation_results_abnormal_list`,setof_text,`Investigation_Results_Abnormal_List`). 
+
+/** clma_ditem_attr/4 **/
+clma_ditem_attr(10010,caption,'Age (years)',`Age (years)`). 
+clma_ditem_attr(10887,range_id,`yes`,10469). 
+clma_ditem_attr(10887,range_id,`no`,10470). 
+clma_ditem_attr(10887,range,`yes`,`Yes`). 
+clma_ditem_attr(10887,range,`no`,`No`). 
+clma_ditem_attr(10887,caption,'Significant family history',`Significant family history`). 
+clma_ditem_attr(10962,caption,'Temperature (C)',`Temperature (C)`). 
+clma_ditem_attr(10962,scope,always_ask,`always_ask`). 
+clma_ditem_attr(10962,external,internal,`internal`). 
+clma_ditem_attr(10962,suppress,false,`false`). 
+clma_ditem_attr(10962,secret,false,`false`). 
+clma_ditem_attr(10967,caption,'Respiratory rate (breaths per minute)',`Respiratory rate (breaths per minute)`). 
+clma_ditem_attr(10967,scope,always_ask,`always_ask`). 
+clma_ditem_attr(10967,external,internal,`internal`). 
+clma_ditem_attr(10967,suppress,false,`false`). 
+clma_ditem_attr(10967,secret,false,`false`). 
+clma_ditem_attr(10969,scope,always_ask,`always_ask`). 
+clma_ditem_attr(10969,external,internal,`internal`). 
+clma_ditem_attr(10969,suppress,false,`false`). 
+clma_ditem_attr(10969,secret,false,`false`). 
+clma_ditem_attr(10980,caption,'Gender',`Gender`). 
+clma_ditem_attr(10980,range,`female`,`Female`). 
+clma_ditem_attr(10980,range_id,`female`,10981). 
+clma_ditem_attr(10980,range,`male`,`Male`). 
+clma_ditem_attr(10980,range_id,`male`,10982). 
+clma_ditem_attr(10980,range,`indeterminant`,`Indeterminant`). 
+clma_ditem_attr(10980,range_id,`indeterminant`,10983). 
+clma_ditem_attr(10980,range,`'not known'`,`'Not known'`). 
+clma_ditem_attr(10980,range_id,`'not known'`,10984). 
+clma_ditem_attr(10980,scope,always_ask,`always_ask`). 
+clma_ditem_attr(10980,external,internal,`internal`). 
+clma_ditem_attr(10980,suppress,false,`false`). 
+clma_ditem_attr(10980,secret,false,`false`). 
+clma_ditem_attr(10985,scope,always_ask,`always_ask`). 
+clma_ditem_attr(10985,external,internal,`internal`). 
+clma_ditem_attr(10985,suppress,false,`false`). 
+clma_ditem_attr(10985,secret,false,`false`). 
+clma_ditem_attr(10989,caption,'Case condition',`Case condition`). 
+clma_ditem_attr(10989,scope,always_ask,`always_ask`). 
+clma_ditem_attr(10989,external,internal,`internal`). 
+clma_ditem_attr(10989,suppress,false,`false`). 
+clma_ditem_attr(10989,secret,false,`false`). 
+clma_ditem_attr(10990,caption,'Case Internal ID',`Case Internal ID`). 
+clma_ditem_attr(10990,scope,always_ask,`always_ask`). 
+clma_ditem_attr(10990,external,internal,`internal`). 
+clma_ditem_attr(10990,suppress,false,`false`). 
+clma_ditem_attr(10990,secret,false,`false`). 
+clma_ditem_attr(11066,range,`general_examination_adult`,`General_Examination_Adult`). 
+clma_ditem_attr(11066,range_id,`general_examination_adult`,11067). 
+clma_ditem_attr(11066,range,`gastrointestinal_system`,`Gastrointestinal_System`). 
+clma_ditem_attr(11066,range_id,`gastrointestinal_system`,11068). 
+clma_ditem_attr(11066,range,`cardiovascular_system`,`Cardiovascular_System`). 
+clma_ditem_attr(11066,range_id,`cardiovascular_system`,11069). 
+clma_ditem_attr(11066,range,`respiratory_system`,`Respiratory_System`). 
+clma_ditem_attr(11066,range_id,`respiratory_system`,11070). 
+clma_ditem_attr(11066,range,`nervous_system`,`Nervous_System`). 
+clma_ditem_attr(11066,range_id,`nervous_system`,11071). 
+clma_ditem_attr(11066,range,`musculoskeletal_system`,`Musculoskeletal_System`). 
+clma_ditem_attr(11066,range_id,`musculoskeletal_system`,11072). 
+clma_ditem_attr(11066,range,`skin_and_integumentary_system`,`Skin_and_Integumentary_System`). 
+clma_ditem_attr(11066,range_id,`skin_and_integumentary_system`,11073). 
+clma_ditem_attr(11066,range,`genitourinary_system`,`Genitourinary_System`). 
+clma_ditem_attr(11066,range_id,`genitourinary_system`,11074). 
+clma_ditem_attr(11066,range,`mental_state_examination`,`Mental_State_Examination`). 
+clma_ditem_attr(11066,range_id,`mental_state_examination`,11075). 
+clma_ditem_attr(11066,range,`general_examination_child`,`General_Examination_Child`). 
+clma_ditem_attr(11066,range_id,`general_examination_child`,11076). 
+clma_ditem_attr(11066,range,`head_eyes_ears_nose_throat`,`Head_Eyes_Ears_Nose_Throat`). 
+clma_ditem_attr(11066,range_id,`head_eyes_ears_nose_throat`,11077). 
+clma_ditem_attr(11066,scope,always_ask,`always_ask`). 
+clma_ditem_attr(11066,external,internal,`internal`). 
+clma_ditem_attr(11066,suppress,false,`false`). 
+clma_ditem_attr(11066,secret,false,`false`). 
+clma_ditem_attr(11106,range_id,`pulse_oximetry_normal`,11107). 
+clma_ditem_attr(11106,range_id,`full_blood_count_normal`,11108). 
+clma_ditem_attr(11106,range_id,`rapid_tests_for_viral_cause_normal`,11109). 
+clma_ditem_attr(11106,range_id,`chest_xray_normal`,11110). 
+clma_ditem_attr(11106,scope,always_ask,`always_ask`). 
+clma_ditem_attr(11106,external,internal,`internal`). 
+clma_ditem_attr(11106,suppress,false,`false`). 
+clma_ditem_attr(11106,secret,false,`false`). 
+clma_ditem_attr(11121,scope,always_ask,`always_ask`). 
+clma_ditem_attr(11121,external,internal,`internal`). 
+clma_ditem_attr(11121,suppress,false,`false`). 
+clma_ditem_attr(11121,secret,false,`false`). 
+clma_ditem_attr(11121,caption,'Temperature (F)',`Temperature (F)`). 
+clma_ditem_attr(10985,caption,'Heart rate (beats/min)',`Heart rate (beats/min)`). 
+clma_ditem_attr(11145,caption,'Investigations Selected',`Investigations Selected`). 
+clma_ditem_attr(11145,description,'This postcondition is used to stop the Investigation Results triggering in the case....',`This postcondition is used to stop the Investigation Results triggering in the case....`). 
+clma_ditem_attr(11145,range,`yes`,`Yes`). 
+clma_ditem_attr(11145,range_id,`yes`,11146). 
+clma_ditem_attr(11145,range,`no`,`No`). 
+clma_ditem_attr(11145,range_id,`no`,11147). 
+clma_ditem_attr(11145,scope,always_ask,`always_ask`). 
+clma_ditem_attr(11145,external,internal,`internal`). 
+clma_ditem_attr(11145,suppress,false,`false`). 
+clma_ditem_attr(11145,secret,false,`false`). 
+clma_ditem_attr(11148,caption,'Examinations Selected',`Examinations Selected`). 
+clma_ditem_attr(11148,range,`yes`,`Yes`). 
+clma_ditem_attr(11148,range_id,`yes`,11149). 
+clma_ditem_attr(11148,range,`no`,`No`). 
+clma_ditem_attr(11148,range_id,`no`,11150). 
+clma_ditem_attr(11148,scope,always_ask,`always_ask`). 
+clma_ditem_attr(11148,external,internal,`internal`). 
+clma_ditem_attr(11148,suppress,false,`false`). 
+clma_ditem_attr(11148,secret,false,`false`). 
+clma_ditem_attr(11151,caption,'Temperature',`Temperature`). 
+clma_ditem_attr(11151,scope,always_ask,`always_ask`). 
+clma_ditem_attr(11151,external,internal,`internal`). 
+clma_ditem_attr(11151,suppress,false,`false`). 
+clma_ditem_attr(11151,secret,false,`false`). 
+clma_ditem_attr(11153,caption,'Systolic blood pressure',`Systolic blood pressure`). 
+clma_ditem_attr(11153,scope,always_ask,`always_ask`). 
+clma_ditem_attr(11153,external,internal,`internal`). 
+clma_ditem_attr(11153,suppress,false,`false`). 
+clma_ditem_attr(11153,secret,false,`false`). 
+clma_ditem_attr(11154,caption,'Diastolic blood pressure',`Diastolic blood pressure`). 
+clma_ditem_attr(11154,scope,always_ask,`always_ask`). 
+clma_ditem_attr(11154,external,internal,`internal`). 
+clma_ditem_attr(11154,suppress,false,`false`). 
+clma_ditem_attr(11154,secret,false,`false`). 
+clma_ditem_attr(11155,caption,'Blood pressure',`Blood pressure`). 
+clma_ditem_attr(11155,scope,always_ask,`always_ask`). 
+clma_ditem_attr(11155,external,internal,`internal`). 
+clma_ditem_attr(11155,suppress,false,`false`). 
+clma_ditem_attr(11155,secret,false,`false`). 
+clma_ditem_attr(11157,scope,always_ask,`always_ask`). 
+clma_ditem_attr(11157,external,internal,`internal`). 
+clma_ditem_attr(11157,suppress,false,`false`). 
+clma_ditem_attr(11157,secret,false,`false`). 
+clma_ditem_attr(11158,scope,always_ask,`always_ask`). 
+clma_ditem_attr(11158,external,internal,`internal`). 
+clma_ditem_attr(11158,suppress,false,`false`). 
+clma_ditem_attr(11158,secret,false,`false`). 
+clma_ditem_attr(11158,caption,'Respiratory rate',`Respiratory rate`). 
+clma_ditem_attr(11157,caption,'Heart rate',`Heart rate`). 
+clma_ditem_attr(10969,caption,'O2 saturation (%) - room air',`O2 saturation (%) - room air`). 
+clma_ditem_attr(11159,scope,always_ask,`always_ask`). 
+clma_ditem_attr(11159,external,internal,`internal`). 
+clma_ditem_attr(11159,suppress,false,`false`). 
+clma_ditem_attr(11159,secret,false,`false`). 
+clma_ditem_attr(11159,caption,'Oxygen saturation % on room air',`Oxygen saturation % on room air`). 
+clma_ditem_attr(11160,scope,always_ask,`always_ask`). 
+clma_ditem_attr(11160,external,internal,`internal`). 
+clma_ditem_attr(11160,suppress,false,`false`). 
+clma_ditem_attr(11160,secret,false,`false`). 
+clma_ditem_attr(11166,caption,'Oxygen saturation (% on 2l/min via nasal prongs)',`Oxygen saturation (% on 2l/min via nasal prongs)`). 
+clma_ditem_attr(11166,scope,always_ask,`always_ask`). 
+clma_ditem_attr(11166,external,internal,`internal`). 
+clma_ditem_attr(11166,suppress,false,`false`). 
+clma_ditem_attr(11166,secret,false,`false`). 
+clma_ditem_attr(11160,caption,'Oxygen saturation L/min via nasal prongs',`Oxygen saturation L/min via nasal prongs`). 
+clma_ditem_attr(11170,range_id,`yes`,10469). 
+clma_ditem_attr(11170,range_id,`no`,10470). 
+clma_ditem_attr(11170,range,`yes`,`Yes`). 
+clma_ditem_attr(11170,range,`no`,`No`). 
+clma_ditem_attr(11170,caption,'Noticed red bumps on face.',`Noticed red bumps on face.`). 
+clma_ditem_attr(11172,caption,'Past medical history ',`Past medical history `). 
+clma_ditem_attr(11172,range,`yes`,`Yes`). 
+clma_ditem_attr(11172,range_id,`yes`,11173). 
+clma_ditem_attr(11172,range,`no`,`No`). 
+clma_ditem_attr(11172,range_id,`no`,11174). 
+clma_ditem_attr(11172,scope,always_ask,`always_ask`). 
+clma_ditem_attr(11172,external,internal,`internal`). 
+clma_ditem_attr(11172,suppress,false,`false`). 
+clma_ditem_attr(11172,secret,false,`false`). 
+clma_ditem_attr(11175,caption,'Lives at home with mother, father, and brother',`Lives at home with mother, father, and brother`). 
+clma_ditem_attr(11175,range,`yes`,`Yes`). 
+clma_ditem_attr(11175,range_id,`yes`,11176). 
+clma_ditem_attr(11175,range,`no`,`No`). 
+clma_ditem_attr(11175,range_id,`no`,11177). 
+clma_ditem_attr(11175,scope,always_ask,`always_ask`). 
+clma_ditem_attr(11175,external,internal,`internal`). 
+clma_ditem_attr(11175,suppress,false,`false`). 
+clma_ditem_attr(11175,secret,false,`false`). 
+clma_ditem_attr(11178,range_id,`yes`,10469). 
+clma_ditem_attr(11178,range_id,`no`,10470). 
+clma_ditem_attr(11178,range,`yes`,`Yes`). 
+clma_ditem_attr(11178,range,`no`,`No`). 
+clma_ditem_attr(11178,caption,'Tried over the counter creams but they do not help.',`Tried over the counter creams but they do not help.`). 
+clma_ditem_attr(11183,caption,'Appears well',`Appears well`). 
+clma_ditem_attr(11183,range,`yes`,`Yes`). 
+clma_ditem_attr(11183,range_id,`yes`,11184). 
+clma_ditem_attr(11183,range,`no`,`No`). 
+clma_ditem_attr(11183,range_id,`no`,11185). 
+clma_ditem_attr(11183,scope,always_ask,`always_ask`). 
+clma_ditem_attr(11183,external,internal,`internal`). 
+clma_ditem_attr(11183,suppress,false,`false`). 
+clma_ditem_attr(11183,secret,false,`false`). 
+clma_ditem_attr(11186,caption,'Cranial nerves grossly intact',`Cranial nerves grossly intact`). 
+clma_ditem_attr(11186,range,`yes`,`Yes`). 
+clma_ditem_attr(11186,range_id,`yes`,11187). 
+clma_ditem_attr(11186,range,`no`,`No`). 
+clma_ditem_attr(11186,range_id,`no`,11188). 
+clma_ditem_attr(11186,scope,always_ask,`always_ask`). 
+clma_ditem_attr(11186,external,internal,`internal`). 
+clma_ditem_attr(11186,suppress,false,`false`). 
+clma_ditem_attr(11186,secret,false,`false`). 
+clma_ditem_attr(11198,range,`yes`,`Yes`). 
+clma_ditem_attr(11198,range_id,`yes`,11181). 
+clma_ditem_attr(11198,range,`no`,`No`). 
+clma_ditem_attr(11198,range_id,`no`,11182). 
+clma_ditem_attr(11198,scope,always_ask,`always_ask`). 
+clma_ditem_attr(11198,external,internal,`internal`). 
+clma_ditem_attr(11198,suppress,false,`false`). 
+clma_ditem_attr(11198,secret,false,`false`). 
+clma_ditem_attr(11198,caption,'Acne vulgaris description',`Acne vulgaris description`). 
+
+/** clma_ditem_locked/1 **/
+
+/** clma_registry/2 **/
+
+/** clma_guideline_attr/2 **/
+clma_guideline_attr(author,`SV`). 
+clma_guideline_attr(guideline_version,`1`). 
+clma_guideline_attr(description,``). 
+clma_guideline_attr(arezzo_version,`IMedALM7 7.1.76`). 
+
+/** clma_available_role/1 **/
+
