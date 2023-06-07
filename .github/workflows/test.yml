@@ -35,19 +35,11 @@ jobs:
             ShevchenkoOlena/ck-student-test
 
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-      - run: echo "💡 My PATH_TO_CONTENT ${{ env.PATH_TO_CONTENT }}"
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
 
       - name: Set up node
         uses: actions/setup-node@v3
 
-      - name: List Directories
-        run: |
-          echo "Directories:"
-          ls
-          echo "Directories ../:"
-          cd ../ShevchenkoOlena
-          ls
       - name: Install dependencies and Run tests
         run: |
           cd ../ShevchenkoOlena/cks-test
